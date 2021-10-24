@@ -7,7 +7,7 @@
             <div class="card-body">
                 <h3 class="card-title">{{ member.nombre }}</h3>
                 <p class="card-text">{{ member.descripcion }}</p>
-                <p class="card-text"><span>Rol: </span> {{rol }}</p>
+                <p class="card-text"><span>Rol: </span> {{member.rol }}</p>
                 <p class="card-text"><span>Código: </span> {{ member.codigo }}</p>
             </div>
             <div class="card-footer">
